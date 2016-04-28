@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  background-color: cornflowerblue;
+  padding: 1em;
+  border: 1em;
+  margin: auto;
+}
+
+.form-numbers{
+  max-width: 500px;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.form-numbers .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-numbers .form-control:focus {
+  z-index: 2;
+}
+
+.table-custom {
+  width: 50%;
+  /*margin-top: 2%;*/
+  margin-left: 10%; 
+  margin-right: 10%;
+  /*margin-bottom: 2%;*/
+  padding: 1em;
+}
+
+#input-error {
+  width: 1000%;
+  padding: .5em;
+  margin: auto;
+}
